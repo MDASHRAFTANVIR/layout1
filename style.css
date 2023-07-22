@@ -61,5 +61,53 @@
 
 .content p {
     color: antiquewhite;
-    
+}
+
+
+.main {
+    border-top: 6px solid #e24d16;
+    background-color: black;
+    padding: 20px 20px;
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    visibility: hidden;
+}
+
+
+.main h3 {
+    color: aliceblue;
+    margin-bottom: 15px;
+}
+
+.main p {
+    color: rgb(243, 238, 231);
+    margin-bottom: 15px;
+    margin-bottom: 20px;
+
+}
+
+.icon i {
+    background-color: #e24d16;
+    padding: 6px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    margin-right: 10px;
+
+}
+
+.icon p {
+    display: inline-block;
+    color: white;
+}
+
+
+.main-part {
+    position: relative;
+}
+
+.main-part:hover .main {
+    opacity: 1;
+    visibility: visible;
+    transition: 0.6s;
 }
